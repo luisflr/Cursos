@@ -17,6 +17,11 @@ export const startApolloServer = async (typeDefs, resolvers) => {
   
   app.use(cors())
   app.use(express.json())
+
+  app.get('/', (req, res) => {
+    res.send('<h3>Hello world</h3>')
+  })
+
   app.use('/graphql', expressMiddleware(server))
 
   await new Promise(resolve => httpServer.listen({
