@@ -1,2 +1,2 @@
-# Cursos-Backend
-Cursos y nuevas tecnologias en backend
+# Cursos
+Cursos y nuevas tecnologias en backend y frontend
